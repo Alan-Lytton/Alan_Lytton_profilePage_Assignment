@@ -1,0 +1,232 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+.container{
+    width: auto;
+    height: 840px;
+    background-color: lightgray;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+
+.profile{
+    margin-left: 10%;
+    margin-right: 3%;
+}
+
+.navbar, .profile{
+    color: white;
+    display: flex;
+}
+
+.navbar{
+    flex: 1;
+}
+
+.my-profile{
+    font-weight: bold;
+}
+
+li{
+    margin: 0 2% 0 1%;
+    list-style: none;
+}
+
+.home, .my-profile, .find-con{
+    color: white;
+    text-decoration: none;
+}
+
+.prof-edu{
+    width: 100%;
+    margin: 0 0 0 78px;
+    padding-top: 90px;
+
+}
+
+.sign-out{
+    width: 75px;
+    height: 25px;
+    margin-right: 5%;
+    background-color: rgb(94, 160, 185);
+    color: white;
+}
+
+.content-body{
+    display: flex;
+}
+
+.prof{
+    margin:0 25px 0 64px;
+    width: auto;
+    height: auto;
+    padding-bottom: 30px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.accent-bar{
+    width: 100%;
+    height: 100px;
+    background-color: #14a2b8;
+}
+
+.user-pic{
+    height: 100px;
+    margin-top: 45px;
+    margin-left: 20px;
+    position:absolute;
+    z-index: 1;
+}
+
+.prof-data, .edit-prof{
+    margin-top: 55px;
+    padding-left: 20px;
+}
+
+h2{
+    font-size: 45px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+}
+
+.map-icon{
+    height: 25px;
+}
+
+.location>a, .location>p{
+    margin: 10px 15px 10px 15px ;
+}
+
+.prof-skills{
+    font-size: 25px;
+}
+
+.edit-prof{
+    display: flex;
+    text-align: left;
+}
+
+.edit-link{
+    margin: 0 0 0 15px;
+}
+
+.prof-settings{
+    height: 25px;
+}
+
+.edu{
+    width: auto;
+    background-color: white;
+    margin: 15px 25px 0 64px;
+    border: 1px solid gray;
+}
+
+.edu-head>h3{
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.edu-data{
+    margin-left: 20px;
+    color: #7b7c7c;
+    font-weight: bold;
+}
+
+.school, .certs{
+    margin: 20px 0 20px 0;
+    color: black;
+}
+
+.req-con{
+    width: 50%;
+    margin: 0 72px 0 25px;
+    padding-top: 90px;
+}
+
+.req, .con{
+    width: auto;
+    height: auto;
+    background-color: white;
+    border: 1px solid gray;
+    margin-bottom: 22px;
+}
+
+
+
+.edu-head, .req-head, .con-head{
+    display:flex;
+    height: 55px;
+    background-color: #000000b5;
+    color: white;
+    align-items: center;
+}
+
+.num-reqs{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: 0 10px 0 25px;
+}
+
+.con-req, .your-con{
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 28px;
+}
+
+.req-data, .con-data{
+    padding: 10px;
+}
+
+.pending1, .pending2, .con1, .con2, .con3, .con4{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.req-pic, .con-pic{
+    height: 55px;
+    border-radius: 50%;
+}
+
+.req-name, .con-name{
+    font-size: 20px;
+}
+
+.req-link, .con-link{
+    margin: 0px;
+}
+
+.accept, .decline{
+    height: 40px;
+    margin: 0 5px 0 5px;
+}
+
+.num-con{
+    border-radius: 50%;
+    width: 50px;
+    height: 30px;
+    margin: 0 10px 0 25px;
+}
+
+.con-name{
+    margin-left: 88px;
+}
+
+.view-more{
+    margin: 0 0 10px 10px;
+}
